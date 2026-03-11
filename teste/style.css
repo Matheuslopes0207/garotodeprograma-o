@@ -1,0 +1,135 @@
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+    background-color:#ffe6f0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.hero{
+    background-image: url(salao.pnj.png);
+    background-size: cover;
+    background-position: center;
+
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    color: #ff0080;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    margin: 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+#agendamento{
+
+background:#fff0f6;
+padding:30px;
+border-radius:10px;
+margin-top:40px;
+
+}
+
+form{
+
+display:flex;
+flex-direction:column;
+gap:10px;
+
+}
+
+input, select{
+
+padding:10px;
+border-radius:6px;
+border:1px solid #ccc;
+
+}
+
+button{
+
+margin-top:10px;
+padding:12px;
+background:#ff4da6;
+color:white;
+border:none;
+border-radius:8px;
+font-weight:bold;
+cursor:pointer;
+
+}
+
+button:hover{
+
+background:#e60073;
+
+}
+
+/* Cabeçalho */
+header{
+    background:#ff4da6;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+/* Menu */
+nav{
+    background:#ff99cc;
+    text-align:center;
+    padding:10px;
+}
+
+nav a{
+    margin:10px;
+    text-decoration:none;
+    color:black;
+    font-weight:bold;
+}
+
+/* Área principal */
+main{
+    padding:20px;
+}
+
+/* Blocos */
+section{
+    background:white;
+    padding:20px;
+    margin-bottom:20px;
+    border-radius:10px;
+}
+
+/* Serviços */
+article{
+    background:#fff0f5;
+    padding:15px;
+    margin:10px 0;
+    border-radius:8px;
+}
+
+/* Rodapé */
+footer{
+    background:#ff4da6;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
+
+img {
+    width: auto;
+    height: 250px;
+}
